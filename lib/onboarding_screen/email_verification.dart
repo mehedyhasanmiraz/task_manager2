@@ -26,9 +26,6 @@ class _EmailverificationscreenState extends State<Emailverificationscreen> {
                 SizedBox(height: 1,),
                 Text("A 6 digit verification pin will send to your email address",style: Head6Text(colorGrey),),
                 SizedBox(height: 20,),
-                TextFormField(decoration: AppInputDecoration("Email Address"),),
-
-                SizedBox(height: 20,),
                 Container(
                   child: ElevatedButton(
                     onPressed: (){},
