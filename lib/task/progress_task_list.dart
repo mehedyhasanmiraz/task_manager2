@@ -10,6 +10,10 @@ class ProgressTaskListScreen extends StatefulWidget {
 class _ProgressTaskListScreenState extends State<ProgressTaskListScreen> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold(
+      body: Center(
+        child: Text("Progress Task List Screen"),
+      )
+    );
   }
 }
